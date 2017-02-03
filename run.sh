@@ -22,6 +22,6 @@ cat $query_nospace.txt | xargs -P 8 -I {} curl -ks '{}' >> out.html
 
 #carve out the groupnames 
 #might be hiding in different locations depending on config / version, need to do more spot-checking
-cat out.html | grep -i "option value" | cut -d '"' -f 2 | sort -u > shodan_groupnames.txt
+cat out.html | grep -i "option value" | cut -d '"' -f 2 | sort -u > groupnames_shodan.txt
 
 echo [*] done!
