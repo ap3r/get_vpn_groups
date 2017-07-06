@@ -283,6 +283,7 @@ GLSD_Support_TG_Web
 GMGVPN
 GPrepRemote
 GROUP8
+GroupVPN
 GRUPPO_TERMOARIEL
 GVila
 GalenVPN
